@@ -1,5 +1,8 @@
-import React from "react";
-
+import {Button,Block} from 'vcc-ui'
 export const HelloWorld: React.FC = () => {
-  return <h1>Hello World!</h1>;
+  return (
+  
+  <Block extend={{padding:20}}>
+    <Button>Clique me</Button>
+  </Block>  )
 };
